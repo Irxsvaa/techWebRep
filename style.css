@@ -1,5 +1,5 @@
 body {
-    font-family: Poppins ;
+    font-family:'Poppins' ;
     margin:0;
 
   }
@@ -23,4 +23,10 @@ body {
   }
   header nav a{
     margin-left: 30px;
+  }
+  .rotate{
+    margin-top: -50px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
   }
