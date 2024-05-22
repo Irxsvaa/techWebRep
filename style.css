@@ -24,19 +24,8 @@ body {
   header nav a{
     margin-left: 30px;
   }
-  .rotate{
-    margin-top: -50px;
-    height: 800px;
-    overflow: hidden;
-    position: relative;
-  }
-  .rotate .list{
-    position: absolute;
-    top:0;
-    width:1140px;
-    max: width 90%;
-    left:50%;
-    transform: translateX(-50%);
-    height: 80%; 
-  }
+ 
+ 
+
+
  
