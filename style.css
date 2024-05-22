@@ -15,11 +15,11 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
   }
   .logo{
     font-weight: bold;
-    font-size: 50px;
-    font-stretch: expanded;
   }
   header nav a{
     margin-left: 30px;
@@ -30,3 +30,13 @@ body {
     overflow: hidden;
     position: relative;
   }
+  .rotate .list{
+    position: absolute;
+    top:0;
+    width:1140px;
+    max: width 90%;
+    left:50%;
+    transform: translateX(-50%);
+    height: 80%; 
+  }
+ 
