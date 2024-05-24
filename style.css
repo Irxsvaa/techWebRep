@@ -50,9 +50,10 @@ body {
     
 }
 
-.item img {
+ img {
     width: 100%;
 }
+
 
 .arrows {
     position: absolute;
