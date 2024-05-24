@@ -18,8 +18,8 @@
             <a href="Info">Info</a>
          </nav>
       </header>
-      <div class="rotate">
-      <div class="list">
+      <div class="carousel-container">
+      <div class="carousel">
          <div class="item">
             <img src="images /motherboard.png" >
             <div class="title">
@@ -31,11 +31,11 @@
                         the other pieces of computer hardware, acting as the brain 
                         to allocate and coordinate power across all other components.
                      </p>
-                     <button class="See More" onclick="toggleDescription('desH')">See More&#8599</button>
+                     <button class="See More" onclick="toggleDescription('des1')">See More&#8599</button>
                   </div>
                </div>
             </div>
-            <div class="desH" style="display: none;" >
+            <div class="des1" style="display: none;" >
                
                A computer’s motherboard is typically the largest 
                         printed circuit board in a machine’s chassis. It 
@@ -60,12 +60,12 @@
                          <br> Internal components include things like the motherboard, 
                          chassis, drives, CPU and more for small desktop units, all the
                           way through whole networks and even up to advanced blade servers.</p>
-                          <button class="See More" onclick="toggleDescription('desH')">See More&#8599</button>
+                          <button class="See More" onclick="toggleDescription('des2')">See More&#8599</button>
                      </div>
                      
                   </div>
                </div>
-               <div class="desH" style="display:none">
+               <div class="des2" style="display:none">
                   fdfdf
                </div>
             </div>
@@ -85,17 +85,14 @@
                              card if you want to improve gaming, video, or visual 
                              performance from your PC.
                         </p>
-                        <button class="See More" onclick="toggleDescription('desH')">See More&#8599</button>
+                        <button class="See More" onclick="toggleDescription('des3')">See More&#8599</button>
                      </div>
                   </div>
                </div>
-               <div class="des" style="display: none;">
+               <div class="des3" style="display: none;">
                Modern GPUs also provide additional computational workload 
                beyond just rendering, making them an extension of the central 
                processing unit.
-            </div>
-            <div class="detail">
-
             </div>
             </div>
          
@@ -112,13 +109,12 @@
                            responsible for guiding your computer as it processes
                             data, much like a brain guides a body. 
                         </p>
-                        <button class="seeMore" >
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des4')">See More&#8599</button>
                      </div>
                   </div> 
                   <div class="detail">
             </div>
-            <div class="des2">
+            <div class="des4" style="display:none;">
                The speed at which is does this is known as ‘clock speed’, and
                 is measured in gigahertz (GHz). A CPU advertising a high GHz 
                 rating will likely perform faster than others from the same brand
@@ -143,13 +139,12 @@
                            to as ‘volatile’ memory because this data gets erased every time your
                            computer restarts.
                         </p>
-                        <button class="seeMore">
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des5')">See More&#8599</button>
                      </div>
                   </div>
                </div><div class="detail">
             </div>
-            <div class="des">
+            <div class="des5" style="display:none;">
                <ul>
                   <li>RAM plays a vital part in many tasks, 
                      including rendering images for graphic design,
@@ -186,14 +181,13 @@
                            used to lower the temperature of computer processor 
                            units (CPUs), and sometimes graphics processor units (GPUs)
                         </p>
-                        <button class="seeMore">
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des6')">See More&#8599</button>
                      </div>
                   </div>
                </div>
                <div class="detail">
             </div>
-            <div class="des">
+            <div class="des6" style="display:none;">
                This process uses water rather than air as the cooling medium 
                because water can conduct heat about 30 times faster than air. <br>
                Additionally, a water cooling system allows computer components to run at higher speeds while reducing system noise.
@@ -214,14 +208,13 @@
                            A power supply is an electrical device
                             that supplies electric power to an electrical load.
                         </p>
-                        <button class="seeMore">
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des7')">See More&#8599</button>
                      </div>
                   </div>
                </div>
                <div class="detail">
             </div>
-            <div class="des">
+            <div class="des7" style="display:none;">
                The main purpose of a power supply is to convert electric current from a source to 
                the correct voltage, current, and frequency to power the load.
             </div>
@@ -241,14 +234,13 @@
                            A hard disk drive (HDD) is an internal or external computer component that stores data,
                             such as the operating system, applications, and user files.
                         </p>
-                        <button class="seeMore">
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des8')">See More&#8599</button>
                      </div>
                   </div>
                </div>
                 <div class="detail">
             </div>
-            <div class="des">
+            <div class="des8" style="display:none;">
                An HDD includes two main elements; a spinning platter and an actuator arm.
                <ul>
                   <li>
@@ -279,14 +271,13 @@
                         <p>
                            SSDs use flash memory to read and write data digitally.
                         </p>
-                        <button class="seeMore">
-                        see more &#8599
+                        <button class="See More" onclick="toggleDescription('des9')">See More&#8599</button>
                      </div>
                   </div>
                </div>
                <div class="detail">
             </div>
-            <div class="des">
+            <div class="des9" style="display:none;">
                An SSD or HDD serves as your computer's long-term memory, 
                storing and remembering files even when your device is off.
                 It works alongside your system's memory (RAM) and processor
@@ -298,9 +289,8 @@
          </div>
       </div>
          <div class="arrows">
-            <button id="prev"><</button>
-            <button id="back">Go Back</button>
-            <button id="next">></button>
+            <button id="prev" class="carousel-button">&lt;</button>
+            <button id="next" class="carousel-button">&gt;</button>
          </div>
       </div>
       <script src="app.js"></script> 

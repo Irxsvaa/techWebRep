@@ -3,10 +3,8 @@ body {
     margin:0;
 
   }
-  a{
-    text-decoration: none;
-    color: rgb(110, 21, 170)
-  }
+ 
+  
   header{
     width: 1140px;
     max-width: 90%;
@@ -24,8 +22,62 @@ body {
   header nav a{
     margin-left: 30px;
   }
- 
- 
 
+  .carousel-container {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background: linear-gradient(to top, #400d50, #ffffff);
+    padding:20px; 
+    border-radius: 10px; 
+     
+  
+}
+.item:last-child {
+  margin-right: 0; /* Remove margin from the last slide */
+}
 
- 
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin: 0 -20px;
+}
+
+.item {
+    min-width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.item img {
+    width: 100%;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.carousel-button:focus {
+    outline: none;
+}
