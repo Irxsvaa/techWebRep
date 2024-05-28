@@ -21,6 +21,8 @@ body {
   }
   .logo{
     font-weight: bold;
+    font-size: 50px;
+    margin-top: auto;
   }
   header nav a{
     margin-left: 30px;
@@ -34,7 +36,7 @@ body {
     max-width: 90%;
     margin: auto;
     overflow: hidden;
-    background: linear-gradient(to top, #400d50, #ffffff);
+    background: linear-gradient(to top, #400d50, #eddcf5);
     padding:20px; 
     border-radius: 10px; 
      
@@ -57,7 +59,12 @@ body {
 }
 
  img {
-    width: 70%;
+  image-rendering:optimizeQuality;
+  max-width: 60%;
+  margin-left: 40px;
+  
+  
+  
 }
 
 hr{
@@ -68,6 +75,26 @@ hr{
   margin: 1em 0;
   
   
+}
+ .topic{
+  padding: 50px 100px;
+  border: 5px;
+  box-sizing: content-box;
+  background:linear-gradient(to left, #a68cb3, #400d50);
+  border-radius: 10px;
+  margin: 30px;
+  
+}
+h2{
+  font-size:20px ;
+}
+p{
+  font-size: larger;
+  font-weight: 400px;
+}
+h1{
+  font-size: 45px;
+  margin-left:50px
 }
 
 
