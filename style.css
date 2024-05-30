@@ -96,7 +96,10 @@ h1{
   font-size: 45px;
   margin-left:50px
 }
-
+.SeeMore{
+  max-width: 75%;
+  margin:50px;
+}
 
 .arrows {
     position: absolute;
@@ -125,3 +128,4 @@ h1{
 .carousel-button:focus {
     outline: none;
 }
+
