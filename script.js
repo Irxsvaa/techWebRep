@@ -18,7 +18,7 @@ let index = 0;
 window.addEventListener("DOMContentLoaded", (event) => {
     const next = document.getElementById('next');
 
-    if (el) {
+    if (next) {
         next.addEventListener('click', function() {
             index = (index + 1) % items.length;
             carousel.style.transform = `translateX(${-index * 100}%)`;
