@@ -1,3 +1,5 @@
+
+
 function toggleDescription(className) {
     var desH = document.getElementsByClassName(className)[0];
     if (desH.style.display === "none") {
@@ -7,8 +9,8 @@ function toggleDescription(className) {
     }
 }
 
-let next = document.getElementById('next');
-let prev = document.getElementById('prev');
+const next = document.getElementById('next');
+const prev = document.getElementById('prev');
 let carousel = document.querySelector('.carousel');
 let items = document.querySelectorAll('.item');
 let index = 0;
