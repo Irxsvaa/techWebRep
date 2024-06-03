@@ -26,12 +26,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
 });
 
-
-next.addEventListener('click', function() {
-    index = (index + 1) % items.length;
-    carousel.style.transform = `translateX(${-index * 100}%)`;
-});
-
 prev.addEventListener('click', function() {
     index = (index - 1 + items.length) % items.length;
     carousel.style.transform = `translateX(${-index * 100}%)`;
